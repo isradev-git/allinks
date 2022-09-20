@@ -24,6 +24,7 @@ body {
         "footer";
     justify-items: center;
     align-content: center;
+    min-height: 100vh;
 }
 
 /* Configuraciones principales */
@@ -32,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -101,6 +102,17 @@ main section a{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
+main section .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+}
+main section .social-media div a{
+    border: none;
+    width: auto;
+}
 
 footer {
     grid-area: footer;
@@ -127,7 +139,7 @@ footer {
 
     /* Configuraciones principales */
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -140,7 +152,7 @@ footer {
 
     p,
     blockquote {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     a {
